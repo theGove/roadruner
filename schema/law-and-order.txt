@@ -7,14 +7,6 @@
   a.head:hover {color: darkslateblue}
 </style>
 
-<h2 style="clear: both; margin-top: 2rem; text-align: center;">
-    
-        <a class="head" href="https://data.world/atlas-query/law-and-order/workspace/query?newQueryType=SQL" target="Query">
-          
-          Database Diagram for Law & Order Data
-          
-    </a>
-</h2>
 
 <div style="text-align: center; width: 100%;">
     <div style="display: inline-block;">
