@@ -1,0 +1,278 @@
+<!--use https://www.image-map.net/ to build image maps-->
+<!--use https://onlinepngtools.com/create-transparent-png to make transparent-->
+<style>
+  area{cursor: pointer;}
+  a.head:link {color: #800000;text-decoration: none;}
+  a.head:visited {color: #800000}
+  a.head:hover {color: darkslateblue}
+</style>
+
+<h2 style="clear: both; margin-top: 2rem; text-align: center;">
+    
+        <a class="head" href="https://data.world/atlas-query/law-and-order/workspace/query?newQueryType=SQL" target="Query">
+          
+          Database Diagram for Law & Order Data
+          
+    </a>
+</h2>
+
+<div style="text-align: center; width: 100%;">
+    <div style="display: inline-block;">
+        <div style="display: inline-block; vertical-align: top;">
+            
+           <img border="0" data-original-height="735" data-original-width="775" src="https://1.bp.blogspot.com/-w_FLOU_oRpM/X-x2j20aOuI/AAAAAAAAnN0/PG1HpsgzahESAk5CPvEwWAzkoVbfy0IIwCNcBGAsYHQ/s787/schema-transparent.png" usemap="#image-map" />
+          
+<map name="image-map">
+<area alt="Person" title="Person" coords="250,437,430,480" shape="rect">
+<area alt="Person.person_id" title="Person.person_id" coords="250,480,430,512" shape="rect">
+<area alt="Person.name" title="Person.name" coords="250,512,430,545" shape="rect">
+<area alt="Person.birthdate" title="Person.birthdate" coords="250,545,430,577" shape="rect">
+<area alt="Person.birth _name" title="Person.birth _name" coords="250,577,430,610" shape="rect">
+<area alt="Person.birth_place" title="Person.birth_place" coords="250,610,430,642" shape="rect">
+<area alt="Person.birth_region" title="Person.birth_region" coords="250,642,430,675" shape="rect">
+<area alt="Person.birth_country" title="Person.birth_country" coords="250,675,430,707" shape="rect">
+<area alt="Person.height_meters" title="Person.height_meters" coords="250,707,430,740" shape="rect">
+<area alt="Person.nickname" title="Person.nickname" coords="250,740,430,772" shape="rect">
+<area alt="Credit" title="Credit" coords="26,248,189,290" shape="rect">
+<area alt="Credit.episode_id" title="Credit.episode_id" coords="26,290,189,323" shape="rect">
+<area alt="Credit.person_id" title="Credit.person_id" coords="26,323,189,356" shape="rect">
+<area alt="Credit.category" title="Credit.category" coords="26,356,189,388" shape="rect">
+<area alt="Credit.Role" title="Credit.Role" coords="26,388,189,421" shape="rect">
+<area alt="Credit.Credited" title="Credit.Credited" coords="26,421,189,454" shape="rect">
+<area alt="Award" title="Award" coords="493,179,688,222" shape="rect">
+<area alt="Award.award_id" title="Award.award_id" coords="493,222,688,255" shape="rect">
+<area alt="Award.organization" title="Award.organization" coords="493,255,688,287" shape="rect">
+<area alt="Award.year" title="Award.year" coords="493,287,688,320" shape="rect">
+<area alt="Award.award_category" title="Award.award_category" coords="493,320,688,352" shape="rect">
+<area alt="Award.award" title="Award.award" coords="493,352,688,385" shape="rect">
+<area alt="Award.series" title="Award.series" coords="493,385,688,418" shape="rect">
+<area alt="Award.person_id" title="Award.person_id" coords="493,483,688,515" shape="rect">
+<area alt="Award.role" title="Award.role" coords="493,450,688,483" shape="rect">
+<area alt="Award.episode_id" title="Award.episode_id" coords="493,418,688,450" shape="rect">
+<area alt="Award.result" title="Award.result" coords="493,515,688,548" shape="rect">
+<area alt="Vote" title="Vote" coords="27,21,190,64" shape="rect">
+<area alt="Vote.episode_ID" title="Vote.episode_ID" coords="27,64,190,97" shape="rect">
+<area alt="Vote.stars" title="Vote.stars" coords="27,97,190,130" shape="rect">
+<area alt="Vote.votes" title="Vote.votes" coords="27,130,190,162" shape="rect">
+<area alt="Vote.percent" title="Vote.percent" coords="27,162,190,195" shape="rect">
+<area alt="Keyword" title="Keyword" coords="493,21,657,64" shape="rect">
+<area alt="Keyword.episode_id" title="Keyword.episode_id" coords="493,64,657,97" shape="rect">
+<area alt="Keyword.keyword" title="Keyword.keyword" coords="493,97,657,130" shape="rect">
+<area alt="Episode" title="Episode" coords="234,21,448,64" shape="rect">
+<area alt="Episode.episode_id" title="Episode.episode_id" coords="234,64,448,97" shape="rect">
+<area alt="Episode.series" title="Episode.series" coords="234,97,448,129" shape="rect">
+<area alt="Episode.season" title="Episode.season" coords="234,129,448,162" shape="rect">
+<area alt="Episode.episode" title="Episode.episode" coords="234,162,448,195" shape="rect">
+<area alt="Episode.number_in_series" title="Episode.number_in_series" coords="234,195,448,227" shape="rect">
+<area alt="Episode.title" title="Episode.title" coords="234,227,448,260" shape="rect">
+<area alt="Episode.summary" title="Episode.summary" coords="234,260,448,292" shape="rect">
+<area alt="Episode.air_date" title="Episode.air_date" coords="234,292,448,325" shape="rect">
+<area alt="Episode.episode_image" title="Episode.episode_image" coords="234,325,448,358" shape="rect">
+<area alt="Episode.rating" title="Episode.rating" coords="234,358,448,390" shape="rect">
+<area alt="Episode.votes" title="Episode.votes" coords="234,390,448,423" shape="rect">
+
+<area coords="189,65,234,80" shape="rect"  alt="Vote JOIN Episode ON Vote.episode_ID = Episode.episode_id" title="Vote JOIN Episode ON Vote.episode_ID = Episode.episode_id"></area>
+<area coords="190,81,234,317" shape="rect"  alt="Episode JOIN Credit ON Episode.episode_id = Credit.episode_id" title="Episode JOIN Credit ON Episode.episode_id = Credit.episode_id"></area>
+<area coords="448,67,494,81" shape="rect"  alt="Episode JOIN Keyword ON Episode.episode_id = Keyword.episode_id" title="Episode JOIN Keyword ON Episode.episode_id = Keyword.episode_id"></area>
+<area coords="449,82,493,440" shape="rect"  alt="Episode JOIN Award ON Episode.episode_id = Award.episode_id" title="Episode JOIN Award ON Episode.episode_id = Award.episode_id"></area>
+<area coords="190,324,234,325,233,472,248,473,248,509,191,508" shape="poly"  alt="Credit JOIN Person ON Credit.person_id = Person.person_id" title="Credit JOIN Person ON Credit.person_id = Person.person_id"></area>
+<area coords="430,485,493,509" shape="rect"  alt="Award JOIN Person ON Award.person_id = Person.person_id" title="Award JOIN Person ON Award.person_id = Person.person_id"></area>
+
+ 
+ 
+
+  
+  
+</map>
+            <div id="msg"></div>
+        </div>
+
+        <div style="display: inline-block; margin-top: 2rem;">
+            <textarea disabled="" id="sql" placeholder="Click the diagram to build SQL SELECT and FROM clauses." style="height: 200px; width: 600px;"></textarea><br /><button id="copy" onclick="copyMe('sql')">Copy</button>&nbsp;<button id="clear" onclick="clear_sql()">Clear</button>&nbsp;<button id="undo" onclick="undo()">Undo</button>&nbsp;<button id="redo" onclick="redo()">Redo</button>
+        </div>    
+    </div>
+</div>
+<br />
+<script type="text/javascript">
+    const history=[]
+    history_position = 0
+    let query={select:[],from:[], tables:[]}
+    const sql=document.getElementById("sql")
+    for(let link of document.getElementsByTagName("area")){
+        link.onclick = function(){amend_sql(this.title)}
+    }
+    function clear_sql(){
+        sql.value = ""
+        query.select = []
+        query.from = []
+        query.tables = []
+    }
+
+    function add_field(table,field){
+       //console.log("table",table)
+       //console.log("field",field)
+        if(query.select.indexOf(table + "." + field)>-1){return}
+        if(query.tables.length===0){
+            //query is empty, just build the query
+            query.select.push(table + "." + field)        
+            query.tables.push(table) 
+            query.from.push(table)  
+            return
+        }else if(query.tables.indexOf(table)===-1){
+            // query already has some data and the table specified is nit in the list of tables, can't add field
+            return "Cannot add table to query.  Try clicking ON a link instead."
+        }else if(field==="*"){
+            // we already have 
+            return "Cannot add table to query.  Try clicking ON a field instead."
+        }else if(query.select.length===1 && query.select[0]==="*"){
+            // there is currently only one field, and it is start.  neex to replace
+            query.select[0]=table + "." + field
+        }else{ 
+            // must have been a field in one of the tables in the query
+            //if we already have a *, get shod of it
+            if(query.select.length===1 && query.select[0].substr(query.select[0].length-2,2)===".*"){query.select.shift()}
+            query.select.push(table + "." + field)        
+        }
+    }
+
+    function amend_sql(fragment) {
+       //console.log("sql", sql.value)
+       //console.log("fragment", fragment)
+        
+        let message=""
+//        let fieldname = fragment
+//        let tablename = fragment
+        if(fragment.indexOf(".")===-1){
+            // we have a table only
+            message = add_field(fragment,"*")
+            if(message){
+                alert(message)
+                return
+            }
+        }else if(fragment.indexOf(" JOIN ")===-1){ 
+            // we have a dot in in the title and no join, it must be a field
+           //console.log("trying to add a field")
+            message = add_field(fragment.split(".")[0],fragment.split(".")[1])
+            if(message){
+                alert(message)
+                return
+            }
+
+        }else{ 
+            // atom is a link
+            // find the talbes in the link
+            let temp=fragment.replace(" JOIN "," ").split(" ")
+            let match_count=0
+            let table_to_add
+            const table1=temp[0]
+            const table2=temp[1]
+
+            if(query.tables.length===0){
+                // query is empty, configure from scratch
+                message = add_field(table1,"*")
+                if(message){
+                    alert(message)
+                    return
+                }
+                // now get ready to add the join clause
+                let frag=fragment.split(" ON ")[1]
+               //console.log("frag",frag)
+                // push the rest into the next entry
+                query.from.push("  JOIN  " + table2+  "\n    ON  " + frag)
+                query.tables.push(table2)        
+
+            }else{
+                //there is already a table in the query.  need to check to see if atom join makes sense
+               //console.log("fragment----->",fragment)
+                for(const tname of query.tables){
+                   //console.log("tname",tname)
+                   //console.log("table1",table1)
+                   //console.log("table2",table2)
+                    if(tname===table1){
+                        match_count++
+                       //console.log(tname, "is already in the query")
+                        table_to_add=table2
+                    }
+                    if(tname===table2){
+                        match_count++
+                       //console.log(tname, "is already in the query")
+                        table_to_add=table1
+                    }
+                }
+               //console.log("table_to_add",table_to_add)
+                if(match_count===0){
+                    alert('Neither "' + table1 + '" nor "' + table2 + '" is already in the query, so we cannot add the selected join.')
+                }else if(match_count===1){
+                   //console.log("ready to add", fragment)
+                    query.from.push("  JOIN  " + table_to_add + "\n    ON  " + fragment.split(" ON ")[1].replace(/ AND /g, '\n    AND '))
+                    query.tables.push(table_to_add)
+                }else{
+                    alert('Both "' + table1 + '" and "' + table2 + '" are already in the query, so we cannot add the selected join.')
+
+                }
+            }
+        }
+
+        // you always wanted to be able to change history, now you can
+        if(history_position < history.length-1){history.splice(history_position+1)}   // get rid of old history     
+
+        if(JSON.stringify(query)!==history[history.length-1]){
+            history.push(JSON.stringify(query))
+            history_position = history.length-1
+        }
+
+        write_query()        
+
+        return false;
+
+    }
+    function write_query(){
+        let local_sql="SELECT  "
+       //console.log("query",query)
+        // write out the query
+        for(let x=0;x<query.select.length;x++){
+            if(x>0){local_sql += "\n        ,"}
+            if(query.select[x].indexOf(".")===-1){
+                local_sql +=  query.select[x]  // there is no prefix, show the whole thing.   should only happen when value is "*"
+            }else if(query.tables.length===1){
+                local_sql += query.select[x].split(".")[1]// there is only one table, no need to prefix
+            }else{
+                local_sql += query.select[x]// multiple tables, let's add prefixes
+            }
+        }
+        for(let x=0;x<query.from.length;x++){
+            local_sql += "\n"
+            if(x===0){local_sql +="FROM    "}
+            local_sql += query.from[x] 
+        }
+        sql.value=local_sql
+    }
+    function copyMe(element){
+        let copier = document.getElementById(element)
+        copier.disabled=false
+        copier.select()
+        document.execCommand('copy')
+        copier.disabled=true
+        //document.getElementById("msg").innerHTML="Copied to the clipboard: " + fragment
+    }
+
+    function undo(){
+        if(history_position===0){
+            sql.value=""  
+            query={select:[],from:[], tables:[]}
+        }else if(history_position>0){
+            history_position = history_position -1
+            query=JSON.parse(history[history_position])
+            write_query()
+        }
+    }
+
+    function redo(){
+        if(history_position < history.length-1){
+            history_position = history_position + 1
+            query=JSON.parse(history[history_position])
+            write_query()
+        }
+    }
+
+</script>
