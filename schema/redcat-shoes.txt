@@ -112,7 +112,15 @@
                 <area alt="product JOIN manufacturer ON product.manufacturerid = manufacturer.manufacturerid" coords="427,64,455,129" shape="rect" title="product JOIN manufacturer ON product.manufacturerid = manufacturer.manufacturerid"></area>
                 <area alt="inventoryItem JOIN product ON inventoryItem.productid = product.productid" coords="632,62,647,62,646,484,610,484,608,470,633,470" shape="poly" title="inventoryItem JOIN product ON inventoryItem.productid = product.productid"></area>
                 <area alt="manufacturer JOIN purchase ON manufacturer.manufacturerid = purchase.manufacturerid" coords="428,8,1164,9,1165,607,1123,609,1122,591,1155,591,1154,21,443,22,443,63,427,63" shape="poly" title="manufacturer JOIN purchase ON manufacturer.manufacturerid = purchnase.manufacturerid"></area>
+</map>
+        </div>
 
+        <div style="display: none; margin-top: 2rem;">
+            <textarea disabled="" id="sql" placeholder="Click the diagram to build SQL SELECT and FROM clauses." style="height: 200px; width: 600px;"></textarea><br /><button id="copy" onclick="copyMe('sql')">Copy</button>&nbsp;<button id="clear" onclick="clear_sql()">Clear</button>&nbsp;<button id="undo" onclick="undo()">Undo</button>&nbsp;<button id="redo" onclick="redo()">Redo</button>
+        </div>    
+    </div>
+</div>
+<br />
 <script type="text/javascript">
 const history=[]
 let most_recent_query=""
