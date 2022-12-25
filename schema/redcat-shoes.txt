@@ -1,0 +1,311 @@
+<!--use https://www.image-map.net/ to build image maps-->
+<!--use https://onlinepngtools.com/create-transparent-png to make transparent-->
+<style>
+  area{cursor: pointer;}
+  a.head:link {color: #800000;text-decoration: none;}
+  a.head:visited {color: #800000}
+  a.head:hover {color: darkslateblue}
+</style>
+
+
+<div style="text-align: center; width: 100%;">
+    <div style="display: inline-block;">
+        <div style="display: inline-block; vertical-align: top;">
+            
+            <img border="0" data-original-height="673" data-original-width="1177" src="https://1.bp.blogspot.com/-RokFn-GqSjs/XgphAD9SjkI/AAAAAAAAkLI/wbbAUxZ9bIoR6mrJphH5FezVtu_-iZQTACNcBGAsYHQ/s1600/redcat_transparent.png" usemap="#image-map" />
+            <map name="image-map">
+                <area alt="customer" coords="195,53,65,22" shape="rect" title="customer"></area>
+                <area alt="customer.customerid" coords="196,81,35,54" shape="rect" title="customer.customerid"></area>
+                <area alt="customer.firstname" coords="195,109,36,83" shape="rect" title="customer.firstname"></area>
+                <area alt="customer.lastname" coords="197,138,37,109" shape="rect" title="customer.lastname"></area>
+                <area alt="customer.streetaddress" coords="197,167,36,138" shape="rect" title="customer.streetaddress"></area>
+                <area alt="customer.city" coords="197,197,36,168" shape="rect" title="customer.city"></area>
+                <area alt="customer.state" coords="196,225,37,197" shape="rect" title="customer.state"></area>
+                <area alt="customer.postalcode" coords="197,255,36,226" shape="rect" title="customer.postalcode"></area>
+                <area alt="customer.country" coords="197,284,36,255" shape="rect" title="customer.country"></area>
+                <area alt="customer.phone" coords="197,312,36,285" shape="rect" title="customer.phone"></area>
+                <area alt="manufacturer" coords="427,52,243,24" shape="rect" title="manufacturer"></area>
+                <area alt="manufacturer.manufacturerid" coords="427,80,214,52" shape="rect" title="manufacturer.manufacturerid"></area>
+                <area alt="manufacturer.manufacturername" coords="428,111,214,82" shape="rect" title="manufacturer.manufacturername"></area>
+                <area alt="manufacturer.address1" coords="427,138,214,110" shape="rect" title="manufacturer.address1"></area>
+                <area alt="manufacturer.address2" coords="427,168,214,139" shape="rect" title="manufacturer.address2"></area>
+                <area alt="manufacturer.city" coords="428,197,215,169" shape="rect" title="manufacturer.city"></area>
+                <area alt="manufacturer.state" coords="428,225,215,197" shape="rect" title="manufacturer.state"></area>
+                <area alt="manufacturer.postalcode" coords="428,255,214,226" shape="rect" title="manufacturer.postalcode"></area>
+                <area alt="manufacturer.phone" coords="428,282,214,255" shape="rect" title="manufacturer.phone"></area>
+                <area alt="manufacturer.fax" coords="427,312,214,283" shape="rect" title="manufacturer.fax"></area>
+                <area alt="manufacturer.contact" coords="428,341,213,313" shape="rect" title="manufacturer.contact"></area>
+                <area alt="manufacturer.url" coords="428,370,215,342" shape="rect" title="manufacturer.url"></area>
+                <area alt="product" coords="632,52,499,23" shape="rect" title="product"></area>
+                <area alt="product.productid" coords="632,80,457,53" shape="rect" title="product.productid"></area>
+                <area alt="product.productname" coords="631,110,457,82" shape="rect" title="product.productname"></area>
+                <area alt="product.manufacturerid" coords="631,138,457,111" shape="rect" title="product.manufacturerid"></area>
+                <area alt="product.composition" coords="632,167,456,140" shape="rect" title="product.composition"></area>
+                <area alt="product.listprice" coords="632,197,456,168" shape="rect" title="product.listprice"></area>
+                <area alt="product.gender" coords="631,225,457,198" shape="rect" title="product.gender"></area>
+                <area alt="product.category" coords="632,255,457,226" shape="rect" title="product.category"></area>
+                <area alt="product.color" coords="631,282,456,254" shape="rect" title="product.color"></area>
+                <area alt="product.description" coords="631,312,457,284" shape="rect" title="product.description"></area>
+                <area alt="sale.saleid" coords="181,501,42,472" shape="rect" title="sale.saleid"></area>
+                <area alt="sale.saledate" coords="181,530,41,501" shape="rect" title="sale.saledate"></area>
+                <area alt="sale.customerid" coords="181,559,41,531" shape="rect" title="sale.customerid"></area>
+                <area alt="sale.tax" coords="181,588,41,560" shape="rect" title="sale.tax"></area>
+                <area alt="sale.shipping" coords="181,617,42,589" shape="rect" title="sale.shipping"></area>
+                <area alt="saleItem" coords="232,444,371,473" shape="rect" title="saleItem"></area>
+                <area alt="saleItem.saleid" coords="232,473,372,502" shape="rect" title="saleItem.saleid"></area>
+                <area alt="saleItem.productid" coords="372,531,232,502" shape="rect" title="saleItem.productid"></area>
+                <area alt="saleItem.itemsize" coords="372,560,232,532" shape="rect" title="saleItem.itemsize"></area>
+                <area alt="saleItem.quantity" coords="372,589,233,561" shape="rect" title="saleItem.quantity"></area>
+                <area alt="saleItem.saleprice" coords="373,619,233,589" shape="rect" title="saleItem.saleprice"></area>
+                <area alt="inventoryItem" coords="422,443,610,473" shape="rect" title="inventoryItem"></area>
+                <area alt="inventoryItem.productid" coords="610,502,422,474" shape="rect" title="inventoryItem.productid"></area>
+                <area alt="inventoryItem.itemsize" coords="610,531,422,503" shape="rect" title="inventoryItem.itemsize"></area>
+                <area alt="inventoryItem.qtyonhand" coords="609,560,423,532" shape="rect" title="inventoryItem.qtyonhand"></area>
+                <area alt="itemSize" coords="463,571,587,599" shape="rect" title="itemSize"></area>
+                <area alt="itemSize.itemsize" coords="588,629,464,599" shape="rect" title="itemSize.itemsize"></area>
+                <area alt="purchaseItem" coords="840,472,664,443" shape="rect" title="purchaseItem"></area>
+                <area alt="purchaseItem.productid" coords="840,501,664,472" shape="rect" title="purchaseItem.productid"></area>
+                <area alt="purchaseItem.itemsize" coords="841,530,664,502" shape="rect" title="purchaseItem.itemsize"></area>
+                <area alt="purchaseItem.purchaseid" coords="840,560,664,530" shape="rect" title="purchaseItem.purchaseid"></area>
+                <area alt="purchaseItem.quantity" coords="840,588,664,560" shape="rect" title="purchaseItem.quantity"></area>
+                <area alt="purchaseItem.purchasePrice" coords="840,617,664,588" shape="rect" title="purchaseItem.purchasePrice"></area>
+                <area alt="purchase" coords="1121,471,882,442" shape="rect" title="purchase"></area>
+                <area alt="purchase.purchaseid" coords="1122,500,882,470" shape="rect" title="purchase.purchaseid"></area>
+                <area alt="purchase.purchasedate" coords="1121,528,882,501" shape="rect" title="purchase.purchasedate"></area>
+                <area alt="purchase.employeeid" coords="1121,559,882,530" shape="rect" title="purchase.employeeid"></area>
+                <area alt="purchase.expecteddeliverydate" coords="1121,588,882,559" shape="rect" title="purchase.expecteddeliverydate"></area>
+                <area alt="purchase.manufacturerid" coords="1122,616,882,589" shape="rect" title="purchase.manufacturerid"></area>
+                <area alt="purchase.shipping" coords="1122,645,882,617" shape="rect" title="purchase.shipping"></area>
+                <area alt="employee" coords="1123,49,968,21" shape="rect" title="employee"></area>
+                <area alt="employee.employeeid" coords="1124,80,967,50" shape="0" title="employee.employeeid"></area>
+                <area alt="employee.firstname" coords="1122,107,967,80" shape="0" title="employee.firstname"></area>
+                <area alt="employee.lastname" coords="1122,137,967,108" shape="0" title="employee.lastname"></area>
+                <area alt="employee.address" coords="1122,167,968,137" shape="0" title="employee.address"></area>
+                <area alt="employee.city" coords="1122,195,967,166" shape="0" title="employee.city"></area>
+                <area alt="employee.state" coords="1124,223,967,196" shape="0" title="employee.state"></area>
+                <area alt="employee.zip" coords="1124,254,968,224" shape="0" title="employee.zip"></area>
+                <area alt="employee.phone" coords="1124,281,967,255" shape="0" title="employee.phone"></area>
+                <area alt="employee.managerid" coords="1124,311,967,282" shape="0" title="employee.managerid"></area>
+                <area alt="employee.ssn" coords="1122,340,967,311" shape="0" title="employee.ssn"></area>
+                <area alt="employee.emailaddress" coords="1124,368,967,340" shape="0" title="employee.emailaddress"></area>
+                <area alt="employee.hiredate" coords="1122,398,967,368" shape="0" title="employee.hiredate"></area>
+                <area alt="wageEmployee" coords="894,51,702,24" shape="rect" title="wageEmployee"></area>
+                <area alt="wageEmployee.employeeid" coords="894,82,702,52" shape="rect" title="wageEmployee.employeeid"></area>
+                <area alt="wageEmployee.wage" coords="892,109,702,81" shape="rect" title="wageEmployee.wage"></area>
+                <area alt="wageEmployee.maxhours" coords="892,139,702,111" shape="rect" title="wageEmployee.maxhours"></area>
+                <area alt="salaryEmployee" coords="902,193,702,165" shape="rect" title="salaryEmployee"></area>
+                <area alt="salaryEmployee.employeeid" coords="902,222,702,193" shape="rect" title="salaryEmployee.employeeid"></area>
+                <area alt="salaryEmployee.salary" coords="902,252,702,222" shape="rect" title="salaryEmployee.salary"></area>
+            
+            
+
+            
+                <area alt="customer JOIN sale ON customer.customerid = sale.customerid" coords="34,546,14,60" shape="rect" title="customer JOIN sale ON customer.customerid = sale.customerid"></area>
+                <area alt="sale JOIN saleItem ON sale.saleid = saleItem.saleid" coords="180,473,232,501" shape="rect" title="sale JOIN saleItem ON sale.saleid = saleItem.saleid"></area>
+                <area alt="saleItem JOIN inventoryItem ON saleItem.productid = inventoryItem.productid AND saleItem.itemsize = inventoryItem.itemsize" coords="408,521,423,521,422,482,372,508,372,552" shape="poly" title="saleItem JOIN inventoryItem ON saleItem.productid = inventoryItem.productid AND saleItem.itemsize = inventoryItem.itemsize"></area>
+                <area alt="purchaseItem JOIN inventoryItem ON purchaseItem.productid = inventoryItem.productid AND purchaseItem.itemsize = inventoryItem.itemsize" coords="610,485,664,524" shape="rect" title="purchaseItem JOIN inventoryItem ON purchaseItem.productid = inventoryItem.productid AND purchaseItem.itemsize = inventoryItem.itemsize"></area>
+                <area alt="inventoryItem JOIN itemSize ON inventoryItem.itemsize =itemSize .itemsize" coords="422,519,410,519,409,620,464,621,463,608,422,607" shape="poly" title="inventoryItem JOIN itemSize ON inventoryItem.itemsize =itemSize .itemsize"></area>
+                <area alt="purchaseItem JOIN purchase ON purchaseItem.purchaseid = purchase.purchaseid" coords="882,479,841,551" shape="0" title="purchaseItem JOIN purchase ON purchaseItem.purchaseid = purchase.purchaseid"></area>
+                <area alt="employee JOIN purchase ON employee.employeeid = purchase.employeeid" coords="1124,59,1149,547" shape="rect" title="employee JOIN purchase ON employee.employeeid = purchase.employeeid"></area>
+                <area alt="employee JOIN wageEmployee ON employee.employeeid = wageEmployee.employeeid" coords="966,67,894,55" shape="rect" title="employee JOIN wageEmployee ON employee.employeeid = wageEmployee.employeeid"></area>
+                <area alt="employee JOIN salaryEmployee ON employee.employeeid = salaryEmployee.employeeid" coords="967,66,903,214" shape="rect" title="employee JOIN salaryEmployee ON employee.employeeid = salaryEmployee.employeeid"></area>
+                <area alt="product JOIN manufacturer ON product.manufacturerid = manufacturer.manufacturerid" coords="427,64,455,129" shape="rect" title="product JOIN manufacturer ON product.manufacturerid = manufacturer.manufacturerid"></area>
+                <area alt="inventoryItem JOIN product ON inventoryItem.productid = product.productid" coords="632,62,647,62,646,484,610,484,608,470,633,470" shape="poly" title="inventoryItem JOIN product ON inventoryItem.productid = product.productid"></area>
+                <area alt="manufacturer JOIN purchase ON manufacturer.manufacturerid = purchase.manufacturerid" coords="428,8,1164,9,1165,607,1123,609,1122,591,1155,591,1154,21,443,22,443,63,427,63" shape="poly" title="manufacturer JOIN purchase ON manufacturer.manufacturerid = purchnase.manufacturerid"></area>
+
+<script type="text/javascript">
+const history=[]
+let most_recent_query=""
+history_position = 0
+let query={select:[],from:[], tables:[]}
+const sql=document.getElementById("sql")
+for(let link of document.getElementsByTagName("area")){
+    link.onclick = function(){amend_sql(this.title)}
+}
+function clear_sql(){
+    sql.value = ""
+    monaco.editor.getModels()[0].setValue('')
+    query.select = []
+    query.from = []
+    query.tables = []
+}
+
+function add_field(table,field){
+   //console.log("table",table)
+   //console.log("field",field)
+    if(query.select.indexOf(table + "." + field)>-1){return}
+    if(query.tables.length===0){
+        //query is empty, just build the query
+        query.select.push(table + "." + field)        
+        query.tables.push(table) 
+        query.from.push(table)  
+        return
+    }else if(query.tables.indexOf(table)===-1){
+        // query already has some data and the table specified is nit in the list of tables, can't add field
+        return "Cannot add table to query.  Try clicking ON a link instead."
+    }else if(field==="*"){
+        // we already have 
+        return "Cannot add table to query.  Try clicking ON a field instead."
+    }else if(query.select.length===1 && query.select[0]==="*"){
+        // there is currently only one field, and it is start.  neex to replace
+        query.select[0]=table + "." + field
+    }else{ 
+        // must have been a field in one of the tables in the query
+        //if we already have a *, get shod of it
+        if(query.select.length===1 && query.select[0].substr(query.select[0].length-2,2)===".*"){query.select.shift()}
+        query.select.push(table + "." + field)        
+    }
+}
+
+function amend_sql(fragment) {
+   //console.log("sql", sql.value)
+   //console.log("fragment", fragment)
+   if(most_recent_query==='' && monaco.editor.getModels()[0].getValue()!==""){
+    alert("Clicking on the diagram is only allowed when you start with a blank query.")
+    return
+   }
+   if(!(most_recent_query===monaco.editor.getModels()[0].getValue()||monaco.editor.getModels()[0].getValue()==="")){
+    alert("Clicking on the diagram is disabled once you change the query by hand.")
+    return
+   }
+    let message=""
+//        let fieldname = fragment
+//        let tablename = fragment
+    if(fragment.indexOf(".")===-1){
+        // we have a table only
+        message = add_field(fragment,"*")
+        if(message){
+            alert(message)
+            return
+        }
+    }else if(fragment.indexOf(" JOIN ")===-1){ 
+        // we have a dot in in the title and no join, it must be a field
+       //console.log("trying to add a field")
+        message = add_field(fragment.split(".")[0],fragment.split(".")[1])
+        if(message){
+            alert(message)
+            return
+        }
+
+    }else{ 
+        // atom is a link
+        // find the talbes in the link
+        let temp=fragment.replace(" JOIN "," ").split(" ")
+        let match_count=0
+        let table_to_add
+        const table1=temp[0]
+        const table2=temp[1]
+
+        if(query.tables.length===0){
+            // query is empty, configure from scratch
+            message = add_field(table1,"*")
+            if(message){
+                alert(message)
+                return
+            }
+            // now get ready to add the join clause
+            let frag=fragment.split(" ON ")[1]
+           //console.log("frag",frag)
+            // push the rest into the next entry
+            query.from.push("  JOIN  " + table2+  "\n    ON  " + frag)
+            query.tables.push(table2)        
+
+        }else{
+            //there is already a table in the query.  need to check to see if atom join makes sense
+           //console.log("fragment----->",fragment)
+            for(const tname of query.tables){
+               //console.log("tname",tname)
+               //console.log("table1",table1)
+               //console.log("table2",table2)
+                if(tname===table1){
+                    match_count++
+                   //console.log(tname, "is already in the query")
+                    table_to_add=table2
+                }
+                if(tname===table2){
+                    match_count++
+                   //console.log(tname, "is already in the query")
+                    table_to_add=table1
+                }
+            }
+           //console.log("table_to_add",table_to_add)
+            if(match_count===0){
+                alert('Neither "' + table1 + '" nor "' + table2 + '" is already in the query, so we cannot add the selected join.')
+            }else if(match_count===1){
+               //console.log("ready to add", fragment)
+                query.from.push("  JOIN  " + table_to_add + "\n    ON  " + fragment.split(" ON ")[1].replace(/ AND /g, '\n    AND '))
+                query.tables.push(table_to_add)
+            }else{
+                alert('Both "' + table1 + '" and "' + table2 + '" are already in the query, so we cannot add the selected join.')
+
+            }
+        }
+    }
+
+    // you always wanted to be able to change history, now you can
+    if(history_position < history.length-1){history.splice(history_position+1)}   // get rid of old history     
+
+    if(JSON.stringify(query)!==history[history.length-1]){
+        history.push(JSON.stringify(query))
+        history_position = history.length-1
+    }
+
+    write_query()        
+
+    return false;
+
+}
+function write_query(){
+    let local_sql="SELECT  "
+   //console.log("query",query)
+    // write out the query
+    for(let x=0;x<query.select.length;x++){
+        if(x>0){local_sql += "\n        ,"}
+        if(query.select[x].indexOf(".")===-1){
+            local_sql +=  query.select[x]  // there is no prefix, show the whole thing.   should only happen when value is "*"
+        }else if(query.tables.length===1){
+            local_sql += query.select[x].split(".")[1]// there is only one table, no need to prefix
+        }else{
+            local_sql += query.select[x]// multiple tables, let's add prefixes
+        }
+    }
+    for(let x=0;x<query.from.length;x++){
+        local_sql += "\n"
+        if(x===0){local_sql +="FROM    "}
+        local_sql += query.from[x] 
+    }
+    sql.value=local_sql
+    monaco.editor.getModels()[0].setValue(local_sql)
+    most_recent_query=local_sql
+}
+function copyMe(element){
+    let copier = document.getElementById(element)
+    copier.disabled=false
+    copier.select()
+    document.execCommand('copy')
+    copier.disabled=true
+    //document.getElementById("msg").innerHTML="Copied to the clipboard: " + fragment
+}
+
+function undo(){
+    if(history_position===0){
+        sql.value="" 
+        monaco.editor.getModels()[0].setValue('') 
+        query={select:[],from:[], tables:[]}
+    }else if(history_position>0){
+        history_position = history_position -1
+        query=JSON.parse(history[history_position])
+        write_query()
+    }
+}
+
+function redo(){
+    if(history_position < history.length-1){
+        history_position = history_position + 1
+        query=JSON.parse(history[history_position])
+        write_query()
+    }
+}
+
+
+</script>
