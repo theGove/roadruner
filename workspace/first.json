@@ -5,6 +5,11 @@
       "text":"Show customers from the state of Utah.",
       "script":"SELECT * FROM ...",
       "connectionName":"Redcat Shoes"
+    },
+    {
+      "text":"Show Employees from Los Angeles.",
+      "script":"SELECT * FROM ...",
+      "connectionName":"Redcat Shoes"
     }
   ]
 }
