@@ -2,14 +2,16 @@
   "type":"workspace",
   "questions":[
     {
-      "text":"Show customers from the state of Utah.",
+      "text":"1. Show customers from the state of Utah.",
       "script":"SELECT * FROM ...",
-      "connectionName":"Redcat Shoes"
+      "connectionName":"Redcat Shoes",
+      "sheetname":"q1"
     },
     {
-      "text":"Show Employees from Los Angeles.",
+      "text":"2. Show Employees from Los Angeles.",
       "script":"SELECT * FROM ...",
-      "connectionName":"Redcat Shoes"
+      "connectionName":"Redcat Shoes",
+      "sheetname":"q2"
     }
   ]
 }
