@@ -2,7 +2,7 @@
   "questions":[
     {
       "text":"Show customers from the state of Utah.",
-      "sql":"SELECT * FROM ...",
+      "script":"SELECT * FROM ...",
       "connection":"Redcat Shoes"
     }
   ]
