@@ -3,7 +3,7 @@
     {
       "text":"Show customers from the state of Utah.",
       "script":"SELECT * FROM ...",
-      "connection":"Redcat Shoes"
+      "connectionName":"Redcat Shoes"
     }
   ]
 }
